@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "title": "Terminar la homework de promesas",
+    "description": "Debo terminar el capitulo 3 y 4 de la homework de advance promise",
+    "done": false
+  },
+
+  {
+    "id": 1,
+    "title": "Practicar Javascript en codewars",
+    "description": "Necesito refrescar conocimientos de los métodos de arrays",
+    "done": false
+  },
+
+  {
+    "id": 2,
+    "title": "Mejorar la aplicación del clima",
+    "description": "Tengo medio hecha una aplicación que esta bastante buena, pero necesito mejorar los estilos",
+    "done": false
+  },
+
+  {
+    "id": 3,
+    "title": "Estudiar express",
+    "description": "Es un tema importante para el cp del M3, por lo que debo estudiar con tiempo",
+    "done": false
+  }
+]
