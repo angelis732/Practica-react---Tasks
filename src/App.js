@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import tasks from './sample/tasks.json';
 import Tasks from './components/Tasks';
 import TaskForm from './components/TaskForm';
 
@@ -8,7 +7,7 @@ import TaskForm from './components/TaskForm';
 class App extends React.Component {
    constructor(props) {
       super(props);
-      this.state = {tasks: tasks};
+      this.state = {tasks: []};
    }
    
    addTask = (title, description) => {
@@ -23,8 +22,8 @@ class App extends React.Component {
    }
    
    deleteTask = id => {
-      const newTask = this.state.tasks.filter(task => task.id !== id);
-      this.setState({tasks: newTask})
+      const newTasks = this.state.tasks.filter(task => task.id !== id);
+      this.setState({tasks: newTasks})
    }
    
    checkDone = id => {
